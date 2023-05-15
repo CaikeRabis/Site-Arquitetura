@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+    border-radius: 50%;
+    
+    display: flex;
+    margin: auto;
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    
+}
+#titulo-rodape{
+    color: white;
+    font-size: larger;
+    margin-top: 10px;
+}
+#container-redes{
+    
+    margin: auto;
+    height: 20vh;
+    width: 40%;
+    display: flex;
+    
+}
+.caixa{
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    width: 30%;
+}
+#container-email{
+    
+    height: 20vh;
+    width: 20%;
+    margin: auto;
+}
+#container-logo{
+    
+    height: 20vh;
+    width: 20%;
+    margin: auto;
+}
