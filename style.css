@@ -13,6 +13,7 @@
 
 #logo:hover{
     box-shadow: 1px 1px 10px white;
+    transition: 0.2s;
 }
 
 #secao-home{
@@ -30,16 +31,35 @@
     justify-content: space-around;
     flex-wrap: wrap; 
     position: relative;
+    background-color: white;
 }
 
+#container1-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+    background-color: #e5dad0;
+}
+#container2-sobre{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #e5dad0;
+}
 
-
+/*PAG-PROJETO*/
 .caixa-projeto{
     height: 250px;
     width: 380px;
     box-shadow: 1px 1px 10px black;
     margin: 5vh auto;
-    
+    text-align: center;
 }
 .caixa-projeto2{
     height: 250px;
@@ -53,6 +73,57 @@
     box-shadow: 1px 1px 10px black;
     margin: 5vh auto;
 }
+
+/*PAG-SOBRE*/
+#sobre{
+   background-color: #e5dad0;
+}
+#box-perfil{
+    height: 350px;
+    width: 350px;
+    box-shadow: 2px 2px 15px;
+    cursor: pointer;
+}
+#box-sobre-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 280px;
+    background: #b29a89;
+    color: white;
+    font-family: ;
+    cursor: pointer;
+
+    border-radius: 5px 5px;
+}
+#box-sobre-2{
+    height: 270px;
+    width: 340px;
+    background-color: #b6886a;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 97%;
+    text-align: center;
+    box-shadow: 2px 2px 15px rgb(99, 96, 96);
+    border-radius: 5px 5px;
+}
+#box-sobre-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 280px;
+    background: #a9b4a4;
+    color: white;
+    font-family: ;
+    cursor: pointer;
+    
+    border-radius: 5px 5px;
+}
+
 .imagens_projeto:hover{
     cursor: pointer;
 }
@@ -79,12 +150,10 @@ footer{
     margin-top: 10px;
 }
 #container-redes{
-    
     margin: auto;
     height: 20vh;
     width: 40%;
     display: flex;
-    
 }
 .contato:hover{
     cursor: pointer;
@@ -92,20 +161,17 @@ footer{
 
 .caixa{
     margin-top: 20px;
-    
     display: flex;
     justify-content: center;
     height: 20vh;
     width: 30%;
 }
 #container-email{
-    
     height: 20vh;
     width: 20%;
     margin: auto;
 }
 #container-logo{
-    
     height: 20vh;
     width: 20%;
     margin: auto;
